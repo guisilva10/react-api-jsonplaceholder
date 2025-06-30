@@ -1,0 +1,35 @@
+Introdução ao React:
+
+O que é: É uma biblioteca Javascript que nos permite criar interfaces de usúarios interativas.
+
+O que é o DOM & Virtual DOM: DOM(Document Object Model) é a estrutura HTML ou XML gerada da nossa pagina WEB,
+enquanto o Virtual DOM é a estrutura em memória do DOM que é utilizada para otimizar as atualizações das interfaces.
+
+SPA (Single Page Application)
+
+Um SPA é uma aplicação web que carrega uma única página HTML e, em seguida, atualiza dinamicamente o conteúdo dessa página à medida que o usuário interage 
+com a aplicação. Isso é feito usando JavaScript para manipular o DOM (Document Object Model) e atualizar a página sem precisar recarregar toda a página 
+do servidor.
+
+Características principais do SPA:
+
+- Carrega uma única página HTML inicial
+- Atualiza o conteúdo dinamicamente usando JavaScript
+- Não recarrega a página inteira ao navegar entre seções
+- Geralmente usa frameworks JavaScript como React, Angular ou Vue.js
+
+MVC Clássico (Model-View-Controller)
+
+O MVC é um padrão de arquitetura de software que divide a aplicação em três camadas:
+
+1. Model: Representa os dados e a lógica de negócios da aplicação.
+2. View: É responsável por renderizar a interface do usuário.
+3. Controller: Recebe as requisições do usuário, processa as ações e atualiza o Model e a View.
+
+Diferenças principais entre SPA e MVC Clássico:
+
+- Carregamento da página: No MVC Clássico, cada ação do usuário pode gerar uma requisição ao servidor e recarregar a página inteira. 
+Já no SPA, a página é carregada uma vez e atualizada dinamicamente.
+- Interação com o servidor: No MVC Clássico, o servidor é responsável por renderizar a View e enviar a página ao cliente. 
+No SPA, o servidor fornece dados em formato JSON ou outro, e o cliente é responsável por renderizar a interface.
+- Complexidade: O SPA pode ser mais complexo de implementar, especialmente para aplicações grandes, pois requer mais JavaScript e gerenciamento de estado.
