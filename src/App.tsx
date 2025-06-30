@@ -57,7 +57,7 @@ function App() {
         <Users2 className="size-6 text-blue-500" />
       </div>
       <Card className="flex flex-col border">
-        <CardContent className="grid grid-cols-2 gap-6 lg:grid-cols-5">
+        <CardContent className="grid grid-cols-1 gap-6 lg:grid-cols-3">
           {users.map((user) => (
             <UserItem user={user} key={user.id} />
           ))}
